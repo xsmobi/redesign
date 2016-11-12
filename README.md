@@ -1,3 +1,18 @@
+# redesign
+Redesign CMS, an Website builder based on Boostrap 4, creating fast loading AJAX pages
+
+## Content Management
+Created with Coldfusion, a simple CRUD.
+
+## Backend
+Edit these data formats:
+* Address Data and Settings: one record per site
+* Articles: "pages" or "views" of a single page site
+* Pages: used to filter articles
+* Links: presently only used for Twitter Moments
+The user interface is created with Bootstrap 4, so sites can be edited from any device
+
+## Display
 Sites created are single page sites (or single page applications, SPA), build with Bootstrap 4
 * The HTML <code>head</code> and <code>body</code> layout are created dynamically from the server: [dynamic site example](http://redesign.mobi/cards/?site=black-forest-hotel-talblick), content is filled into the template via AJAX
 * <code>body</code> layout consists of a header, a navigation (if there are pages created), an article section and a footer
