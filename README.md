@@ -2,7 +2,7 @@
 Redesign CMS, a Website builder based on Boostrap 4, creating fast loading AJAX pages
 
 ## Content Management
-Created with Coldfusion, a simple CRUD.
+Created with Coldfusion, a simple CRUD (create, read, update, delete) with a MySQL database.
 
 ## Backend
 Edit these data formats:
@@ -14,7 +14,7 @@ The user interface is created with Bootstrap 4, so sites can be edited from any 
 
 ## Display
 Sites created are single page sites (or single page applications, SPA), build with Bootstrap 4
-* The HTML <code>head</code> and <code>body</code> layout are created dynamically from the server: [dynamic site example](http://redesign.mobi/cards/?site=black-forest-hotel-talblick), content is filled into the template via AJAX
+* The HTML <code>head</code> and <code>body</code> layout are created dynamically from the server: [dynamic site example](http://redesign.mobi/cards/?site=black-forest-hotel-talblick), content is filled into the template via AJAX with jQuery and a Coldfusion CFC
 * <code>body</code> layout consists of a header, a navigation (if there are pages created), an article section and a footer
 * The layout can easily be customized, presently there are two standard layouts with top and side nav, respectively
 * These sites can be uploaded at any time to static URLs: [static site example](http://cms.redesign.mobi/black-forest-hotel-talblick/)
@@ -23,6 +23,7 @@ Sites created are single page sites (or single page applications, SPA), build wi
 Extensive descriptions and examples on [rwd.io](http://www.rwd.io)
 * Sites can easyily be transferred to other servers: only one HTML page, less than 100 lines. A canonical link can be set.
 * Each article is also a stand-alone web page [dynamic article page examample](http://redesign.mobi/cards/?site=black-forest-hotel-talblick) consisting of the respective article content, navigation and footer. There is a [preview template](http://redesign.mobi/cards/?site=black-forest-hotel-talblick&post=1788&apreview), too, without nav and footer, used during editing
+* Articles can have a limited lifetime. After expiry they won't be displayed. If all articles have expired (or are set to "no display")
 * Sharing the site: there are meta tags for Twitter Cards and Open Graph
 * Sharing a page: any individual page has Twitter Cards and Open Graph meta tags, too, plus sharing buttons (presently Twitter only)
 * There is a widget format to embed a site into any other weg page via Iframe
@@ -46,7 +47,7 @@ Both the layout and typography make use of Bootstrap 4
 ## Edit Menu
 Screenshots, editing a sample site
 
-### Data types: Articles, Adress & Settings
+### Data types: Articles, Address & Settings
 ![](http://i.imgur.com/Lhuz8ZA.jpg)
 
 ![](http://i.imgur.com/VWYLBhM.jpg)
@@ -57,4 +58,17 @@ Screenshots, editing a sample site
 Contextual help: article markdown
 ![](http://i.imgur.com/eFDhdqm.jpg)
 
+## About the project, kudos
+I created a similar system back in 2008 as a site builder for mobile websites. Over the years I continually used it for content marketing, plus I created tools on top of it, like an HTML email builder and an app builder (with AngularJS). Earlier I used Foundation instead Bootstrap. Now, with Bootstrap 4 having matured very much (though still in Alpha), I want to leverage the power of Bootstrap's responsiveness to create a truly responsive site builder.
 
+A LinkedIn article, published on July 7, 2016: [Redesign: a simple site builder for non-techie publishers & marketers](https://www.linkedin.com/pulse/redesign-simple-site-builder-non-techie-publishers-marketers-ritter)
+
+Example sites (in German), for tourism marketing: ["Tourismuswerbung Deutschland"](http://www.tourismuswerbung-deutschland.de/)
+
+Some stuff on Responsive Web Design, putting Redesign CMS in a context: [rwd.io](http://www.rwd.io)
+
+Want to try? [Sign-up here.](http://www.redesign.mobi/sign-up/)
+
+Thanks and kudos to all Coldfusion stars I learned from: Raymond Camdon, Pete Freitag, Ben Nadel - and, of course: Ben Forta
+
+Thanks to great free services that make the digital world a better place: Stack Overflow, MySQL, Bootstrap, Foundation, Font Awesome, jQuery, AngularJs, Embedly, Twitter (for Cards and Moments), Google Translate - as well as services I use and reommend to users for creating sites: Pixlr, CompressNow, Imgur
