@@ -1,5 +1,5 @@
-# redesign
-Redesign CMS, a website builder for responsive web design based on Bootstrap 4, creating fast loading AJAX single page web sites.
+# Redesign CMS
+A website builder for responsive web design based on Bootstrap 4, creating fast loading AJAX single page web sites.
 
 ## Content Management
 Created with Coldfusion, a simple CRUD (create, read, update, delete) with a MySQL database.
@@ -50,15 +50,7 @@ Both the layout and typography make use of Bootstrap 4
 Screenshots, editing a sample site
 
 ### Data types: Articles, Address & Settings
-![](http://i.imgur.com/Lhuz8ZA.jpg)
-
-![](http://i.imgur.com/VWYLBhM.jpg)
-
-### Editing an article
-![](http://i.imgur.com/wnKGccG.jpg)
-
-Contextual help: article markdown
-![](http://i.imgur.com/eFDhdqm.jpg)
+![](http://i.imgur.com/sHLcxXw.jpg)
 
 ## About the project, kudos
 I created a similar system back in 2008 as a site builder for mobile websites. Over the years I continually used it for content marketing, plus I created tools on top of it, like an HTML email builder and an app builder (with AngularJS). Earlier I used Foundation instead Bootstrap. Now, with Bootstrap 4 having matured very much (though still in Alpha), I want to leverage the power of Bootstrap's responsiveness to create a truly responsive site builder.
@@ -71,6 +63,8 @@ Some stuff on Responsive Web Design, putting Redesign CMS in a context: [rwd.io]
 
 Want to try? [Sign-up here.](http://www.redesign.mobi/sign-up/)
 
-Thanks and kudos to all Coldfusion stars I learned from: Raymond Camden, Pete Freitag, Ben Nadel - and, of course: Ben Forta
+Thanks and kudos to all Coldfusion stars I learned from: [Raymond Camden](https://github.com/cfjedimaster), [Pete Freitag](https://github.com/pfreitag), [Ben Nadel](https://github.com/BenNadel) - and, of course: [Ben Forta](http://forta.com/)
 
-Thanks to great free services that make the digital world a better place: Stack Overflow, MySQL, Bootstrap, Foundation, W3C validator, Pingdom Tools, Font Awesome, jQuery, AngularJs, Embedly, Twitter (for Cards and Moments), Google Translate - as well as services I use and reommend to users for creating sites: Pixlr, CompressNow, Imgur
+Thanks to great free services that make the digital world a better place: Stack Overflow, MySQL, [Bootstrap](https://v4-alpha.getbootstrap.com/), Foundation, W3C validator, Pingdom Tools, [Font Awesome](http://fontawesome.io), jQuery, AngularJs, Embedly, Twitter (for Cards and Moments), Google Maps and Google Translate - as well as services I use and reommend to users for creating sites: Pixlr, CompressNow, Imgur
+
+![](http://i.imgur.com/1a5xeF9.jpg)
