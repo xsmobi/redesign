@@ -1,5 +1,5 @@
 # redesign
-Redesign CMS, an Website builder based on Boostrap 4, creating fast loading AJAX pages
+Redesign CMS, a Website builder based on Boostrap 4, creating fast loading AJAX pages
 
 ## Content Management
 Created with Coldfusion, a simple CRUD.
@@ -42,3 +42,19 @@ Both the layout and typography make use of Bootstrap 4
 * Syntax allows HTML-free [Font Awesome](http://fontawesome.io/icons/) integration. Any of the 675+ icons can be integrated
 * The footer consists of site data and an address bar which includes a link to the publishers website, and a Google Maps link.
 * Site data in the footer: site title, site description, site text (no markup, presently), site image, two iframe site embeds (for instance, for YouTube or SlideShare
+
+## Edit Menu
+Screenshots, editing a sample site
+
+### Data types: Articles, Adress & Settings
+![](http://i.imgur.com/Lhuz8ZA.jpg)
+
+![](http://i.imgur.com/VWYLBhM.jpg)
+
+### Editing an article
+![](http://i.imgur.com/wnKGccG.jpg)
+
+Contextual help: article markdown
+![](http://i.imgur.com/eFDhdqm.jpg)
+
+
