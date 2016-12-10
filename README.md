@@ -54,18 +54,29 @@ Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/r
 Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated with the Font Awesome button and the respective [icon code](http://fontawesome.io/icons/). Additionally, really awesome combinations of stacked and animated icons are possible as shown in [this article](http://cms.redesign.mobi/redesign-showcase.html?post=1821).
 ![](http://i.imgur.com/PiI08nk.jpg)
 
+## Host everywhere
+Since sites are single, statice HTML pages, the can be hosted everywhere. Or they can be published on multiple hosts where updated content is served via AJAX to all hosting sites. Example: a bed and breakfast in Munich, [Pension Amsel](http://pension-amsel.com/)
+* Hosted on [redesign.mobi](http://cms.redesign.mobi/pension-amsel-muenchen.html)
+* Hosted on [Amazon S3](http://aws-website-pensionamsel-7gdr4.s3-website-us-east-1.amazonaws.com/)
+* Hosted on [BitBalloon](http://pension-amsel-muenchen.bitballoon.com)
+The lean HTML template plus AJAX loading keeps load time very short
+![](http://i.imgur.com/H3UYGBT.jpg)
 
 
 
 
-
+(this ReadMe is under construction, to be continued)
+<!-- 
 ## Displaying and templates 
 Sites created are single page sites (or single page applications, SPA), build with Bootstrap 4
 * The HTML <code>head</code> and <code>body</code> layout are created dynamically from the server: [dynamic site example](http://redesign.mobi/cards/?site=black-forest-hotel-talblick), content is loaded into the template via AJAX with jQuery and a Coldfusion CFC
 * <code>body</code> layout consists of a header, a navigation (if there are pages created), an article section and a footer
 * The layout can easily be customized, presently there are two standard layouts with top and side nav, respectively
 * These sites can be uploaded at any time to static URLs: [static site example](http://cms.redesign.mobi/black-forest-hotel-talblick/)
+ -->
 
+
+<!-- 
 ## General features
 Extensive descriptions and examples on [rwd.io](http://www.rwd.io)
 * Sites can easyily be transferred to other servers: only one HTML page, less than 300 lines. A canonical link can be set.
@@ -113,3 +124,5 @@ Thanks and kudos to all Coldfusion stars I learned from: [Raymond Camden](https:
 Thanks to great free services that make the digital world a better place: Stack Overflow, MySQL, [Bootstrap](https://v4-alpha.getbootstrap.com/), Foundation, W3C validator, Pingdom Tools, [Font Awesome](http://fontawesome.io), jQuery, AngularJs, Embedly, Twitter (for Cards and Moments), Google Maps and Google Translate - as well as services I use and reommend to users for creating sites: Pixlr, CompressNow, Imgur
 
 ![](http://i.imgur.com/1a5xeF9.jpg)
+
+ -->
