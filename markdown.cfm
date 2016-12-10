@@ -14,17 +14,5 @@
 			</cfif>
 		</cfloop>
 		<cfset txt = ReplaceNoCase(ReplaceNoCase(txt, "[", "", "ALL"), "]", "", "ALL")>
-		<!--- bold, italic --->
-		<!--- <cfset b1 = "<strong>">
-		<cfset b2 = "</strong>">
-		<cfset mdstringlist = "">
-		<cfloop list="#txt#" delimiters=" *" index="mdstring">
-			<cfif FindNoCase("* ",mdstring) and mdstring neq ListFirst(mdstring, "* ")>
-				<cfset mdstringitem = Left(mdstring,FindNoCase("* ",mdstring) - 1)>
-				<cfif Left(mdstringitem, 1) neq " " and Right(mdstringitem, 1) neq " ">
-					<cfset txt = ReplaceNoCase(txt, mdstringitem, b1 & mdstringitem & b2)>
-				</cfif>
-			</cfif>
-		</cfloop> --->
 	<cfreturn txt>
 </cffunction>
