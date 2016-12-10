@@ -11,14 +11,17 @@ A website builder for responsive web design based on Bootstrap 4, creating fast 
 
 
 ## How content management, content delivery and frontend design play together
+
 ### Content management
 Created with **Coldfusion**, the CMS is a simple [CRUD] https://en.wikipedia.org/wiki/Create,_read,_update_and_delete with a **MySQL** database. Data types (i.a. SQL tables):
 * *Address Data and Settings:* one record per site
 * *Articles* make up the content of a single page site. Text only ("basic use"), rich text ("advanced"), plus HTML/CSS ("expert")
 * *Pages:* articles can be assigned to pages to make the site a multi page application
 The user interface is created with [Bootstrap 4](https://v4-alpha.getbootstrap.com/), hence sites can be edited from any device. To see it in action, [sign-up](http://www.redesign.mobi/sign-up/) and get a link that takes you directly into the menu.
+
 ### Content delivery
 For **basic use**, the CMS stores data only, where each data type consists of various fields. For instance, articles consist of a header, text body, expiry date etc. However, when these data flow into the template via AJAX, fields are marked up with basic styles from the Bootstrap framework.
+
 ### Frontend design
 The HTML template is almost empty. The head contains user specific data (such as a metatitle or canonical link), CSS links and external JS. The body contains some empty divs waiting for the AJAX data. If **basic** users do not add any CSS, the template looks like plain vanilla Bootstrap which is sufficient for many cases. **Advanced users** create rich text with canned markup from Bootstrap and some easy proprietary markdown (for instance <code>[linkURL link anchor text]</code> similar to Wikipedia markdown). **Expert users** (some HTML and CSS) can add more flavour with styles.
 
