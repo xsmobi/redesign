@@ -48,7 +48,7 @@ CSS-savvy users can enter styles or link to an external stylesheet to format any
 
 
 
-## Displaying and templates
+## Displaying and templates 
 Sites created are single page sites (or single page applications, SPA), build with Bootstrap 4
 * The HTML <code>head</code> and <code>body</code> layout are created dynamically from the server: [dynamic site example](http://redesign.mobi/cards/?site=black-forest-hotel-talblick), content is loaded into the template via AJAX with jQuery and a Coldfusion CFC
 * <code>body</code> layout consists of a header, a navigation (if there are pages created), an article section and a footer
