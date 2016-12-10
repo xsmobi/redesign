@@ -42,7 +42,7 @@ Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/r
 **Fonts** can be used via external styles, for instance [Google Fonts](https://fonts.google.com/) and customization.
 ![Styling headers with Google Fonts](http://i.imgur.com/FmuLueA.jpg)
 
-<hr>
+<hr> 
 **HTML-savvy users** can also include code, for instance, responsive tables with Bootstrap 4 designs
 [A Bootstrap 4 table](http://i.imgur.com/yXnNHJW.jpg)
 
