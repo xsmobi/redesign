@@ -10,15 +10,16 @@ The user interface is created with Bootstrap 4, hence sites can be edited from a
 
 ## Formatting and design options
 
+<hr>
 ### Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
 ![](http://i.imgur.com/YZHRlE7.jpg)
 
 
-### **Non-techies** can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, a [simple article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this (just a header, text, image):
+### Non-techies can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, a [simple article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this (just a header, text, image):
 ![A simple article](http://i.imgur.com/2Dg73Id.jpg)
 
-
-**CSS-savvy users** can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [styled article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
+<hr>
+CSS-savvy users can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [styled article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
 ![A styled article](http://i.imgur.com/nFeGpM6.jpg)
 
 
