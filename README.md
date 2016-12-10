@@ -26,31 +26,36 @@ For **basic use**, the CMS stores data only, where each data type consists of va
 The HTML template is almost empty. The head contains user specific data (such as a metatitle or canonical link), CSS links and external JS. The body contains some empty divs waiting for the AJAX data. If **basic** users do not add any CSS, the template looks like plain vanilla Bootstrap which is sufficient for many cases. **Advanced users** create rich text with canned markup from Bootstrap and some easy proprietary markdown (for instance <code>[linkURL link anchor text]</code> similar to Wikipedia markdown). **Expert users** (some HTML and CSS) can add more flavour with styles.
 
 ## Formatting and design options
-Styles
-A few examples on format options: 
-<hr>
-### Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
+
+Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
 ![](http://i.imgur.com/YZHRlE7.jpg)
 
-
-### Non-techies can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, a [simple article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this (just a header, text, image):
+<hr>
+**Non-techies** can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, a [simple article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this (just a header, text, image):
 ![A simple article](http://i.imgur.com/2Dg73Id.jpg)
 
 <hr>
-CSS-savvy users can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [styled article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
+**CSS-savvy users** can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [styled article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
 ![A styled article](http://i.imgur.com/nFeGpM6.jpg)
 
-
+<hr>
 **Fonts** can be used via external styles, for instance [Google Fonts](https://fonts.google.com/) and customization.
 ![Styling headers with Google Fonts](http://i.imgur.com/FmuLueA.jpg)
 
-
-**HTML-savvy users** can also include code, for instance, for tables with Bootstrap 4 designs
+<hr>
+**HTML-savvy users** can also include code, for instance, responsive tables with Bootstrap 4 designs
 [A Bootstrap 4 table](http://i.imgur.com/yXnNHJW.jpg)
 
-
+<hr>
 *Bootstrap fans* can use Bootstrap 4 styles for formatting, for instance "primary", "success", "info" or "muted" / "faded" for [colors](https://v4-alpha.getbootstrap.com/utilities/colors/) and backgrounds.
 ![Bootstrap colors](http://i.imgur.com/vgTD4VJ.jpg)
+
+<hr>
+Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated with the Font Awesome button and the respective [http://fontawesome.io/icons/ icon code]. Additionally, really awesome combinations of stacked and animated icons are possible as shown in this article.
+![](http://i.imgur.com/PiI08nk.jpg)
+
+
+
 
 
 
