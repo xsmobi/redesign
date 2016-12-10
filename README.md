@@ -1,8 +1,8 @@
 # Redesign CMS
 A website builder for responsive web design based on Bootstrap 4, creating fast loading AJAX single page web sites. Format examples: [redesign.mobi](http://www.redesign.mobi). Anyone can [sign-up](http://www.redesign.mobi/sign-up/) and create a website. It's only 20 seconds from signing up to Hello World.
 
-Contents
-* Content Management and Backend
+## Contents
+* Content Management and backend
 * Formatting and design options
 * Displaying and templates
 * Pages
@@ -10,15 +10,17 @@ Contents
 * Layout and typography features
 
 
-## Content Management and Backend
-Created with Coldfusion, a simple CRUD (create, read, update, delete) with a MySQL database. Edit these data formats:
+## Content Management and backend
+Created with **Coldfusion**, the CMS is a simple CRUD (create, read, update, delete) with a **MySQL** database. Date types (i.a. SQL tables):
 * Address Data and Settings: one record per site
 * Articles: "pages" or "views" of a single page site
 * Pages: used to filter articles
-The user interface is created with Bootstrap 4, hence sites can be edited from any device. To see it in action, [sign-up](http://www.redesign.mobi/sign-up/) and get a link that takes you directly into the menu.
+The user interface is created with [Bootstrap 4](https://v4-alpha.getbootstrap.com/), hence sites can be edited from any device.
+>To see it in action, [sign-up](http://www.redesign.mobi/sign-up/) and get a link that takes you directly into the menu.
+Principle:
 
 ## Formatting and design options
-
+Styles
 A few examples on format options: 
 <hr>
 ### Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
