@@ -9,21 +9,29 @@ Created with Coldfusion, a simple CRUD (create, read, update, delete) with a MyS
 The user interface is created with Bootstrap 4, hence sites can be edited from any device. To see it in action, [sign-up](http://www.redesign.mobi/sign-up/) and get a link that takes you directly into the menu.
 
 ## Formatting and design options
-Example screenshot: the edit menue of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
+
+Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
 ![](http://i.imgur.com/YZHRlE7.jpg)
+
 
 **Non-techies** can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, a [simple article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this (just a header, text, image):
 ![A simple article](http://i.imgur.com/2Dg73Id.jpg)
 
-<i class="fa fa-bullseye" aria-hidden="true"></i> **CSS-savvy users** can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [styled article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
+
+**CSS-savvy users** can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [styled article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
 ![A styled article](http://i.imgur.com/nFeGpM6.jpg)
+
+
+**Fonts** can be used via external styles, for instance Google Fonts and customization.
+[Styling headers with Google Fonts](http://i.imgur.com/FmuLueA.jpg)
+
 
 **HTML-savvy users** can also include code, for instance, for tables with Bootstrap 4 designs
 [A Bootstrap 4 table](http://i.imgur.com/yXnNHJW.jpg)
 
+
 *Bootstrap fans* can use Bootstrap 4 styles for formatting, for instance "primary", "success", "info" or "muted" / "faded" for [colors](https://v4-alpha.getbootstrap.com/utilities/colors/) and backgrounds.
 ![Bootstrap colors](http://i.imgur.com/vgTD4VJ.jpg)
-
 
 
 
