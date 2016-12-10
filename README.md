@@ -51,7 +51,7 @@ Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/r
 ![Bootstrap colors](http://i.imgur.com/vgTD4VJ.jpg)
 
 <hr>
-Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated with the Font Awesome button and the respective [http://fontawesome.io/icons/ icon code]. Additionally, really awesome combinations of stacked and animated icons are possible as shown in this article.
+Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated with the Font Awesome button and the respective [icon code](http://fontawesome.io/icons/). Additionally, really awesome combinations of stacked and animated icons are possible as shown in [this article](http://cms.redesign.mobi/redesign-showcase.html?post=1821).
 ![](http://i.imgur.com/PiI08nk.jpg)
 
 
