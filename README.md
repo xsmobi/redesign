@@ -12,7 +12,7 @@ Example screenshot: the edit menue of [this post](http://cms.redesign.mobi/redes
 ![](http://i.imgur.com/YZHRlE7.jpg)
 
 Non-techies can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, an [article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this:
-<img src="http://i.imgur.com/T2QM7T2.jpg" alt="a simple article" style="border: 3px solid #eee;">
+<img src="http://i.imgur.com/T2QM7T2.jpg" alt="a simple article" style="padding:1px; border:1px solid #021a40; background-color:#ff0;">
 
 
 ## Display
