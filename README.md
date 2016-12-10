@@ -1,6 +1,15 @@
 # Redesign CMS
 A website builder for responsive web design based on Bootstrap 4, creating fast loading AJAX single page web sites. Format examples: [redesign.mobi](http://www.redesign.mobi). Anyone can [sign-up](http://www.redesign.mobi/sign-up/) and create a website. It's only 20 seconds from signing up to Hello World.
 
+Contents
+* Content Management and Backend
+* Formatting and design options
+* Displaying and templates
+* Pages
+* General features
+* Layout and typography features
+
+
 ## Content Management and Backend
 Created with Coldfusion, a simple CRUD (create, read, update, delete) with a MySQL database. Edit these data formats:
 * Address Data and Settings: one record per site
@@ -10,6 +19,7 @@ The user interface is created with Bootstrap 4, hence sites can be edited from a
 
 ## Formatting and design options
 
+A few examples on format options: 
 <hr>
 ### Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
 ![](http://i.imgur.com/YZHRlE7.jpg)
@@ -36,7 +46,7 @@ CSS-savvy users can enter styles or link to an external stylesheet to format any
 
 
 
-## Display
+## Displaying and templates
 Sites created are single page sites (or single page applications, SPA), build with Bootstrap 4
 * The HTML <code>head</code> and <code>body</code> layout are created dynamically from the server: [dynamic site example](http://redesign.mobi/cards/?site=black-forest-hotel-talblick), content is loaded into the template via AJAX with jQuery and a Coldfusion CFC
 * <code>body</code> layout consists of a header, a navigation (if there are pages created), an article section and a footer
@@ -70,17 +80,15 @@ Both the layout and typography make use of Bootstrap 4
 * The footer consists of site data and an address bar which includes a link to the publishers website, and a Google Maps link.
 * Site data in the footer: site title, site description, site text (no markup, presently), site image, two iframe site embeds (for instance, for YouTube or SlideShare
 
-## Edit Menu
-Screenshots, editing a sample site
-
 ### Data types: Articles, Address & Settings
 ![](http://i.imgur.com/sHLcxXw.jpg)
 
-## About the project, kudos
+### About the project, kudos
 I created a similar system back in 2008 as a site builder for mobile websites. Over the years I continually used it for content marketing, plus I created tools on top of it, like an HTML email builder and an app builder (with AngularJS). Earlier I used Foundation instead Bootstrap. Now, with Bootstrap 4 having matured very much (though still in Alpha), I want to leverage the power of Bootstrap's responsiveness to create a truly responsive site builder.
 
 A LinkedIn article, published on July 7, 2016: [Redesign: a simple site builder for non-techie publishers & marketers](https://www.linkedin.com/pulse/redesign-simple-site-builder-non-techie-publishers-marketers-ritter)
 
+### Example Sites
 Example sites (in German), for tourism marketing: ["Tourismuswerbung Deutschland"](http://www.tourismuswerbung-deutschland.de/)
 
 Some stuff on Responsive Web Design, putting Redesign CMS in a context: [rwd.io](http://www.rwd.io)
