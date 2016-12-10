@@ -6,8 +6,9 @@ Created with Coldfusion, a simple CRUD (create, read, update, delete) with a MyS
 * Address Data and Settings: one record per site
 * Articles: "pages" or "views" of a single page site
 * Pages: used to filter articles
-The user interface is created with Bootstrap 4, hence sites can be edited from any device
+The user interface is created with Bootstrap 4, hence sites can be edited from any device. To see it in action, [sign-up](http://www.redesign.mobi/sign-up/) and get a link that takes you directly into the menu.
 
+## Formatting and design options
 Example screenshot: the edit menue of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
 ![](http://i.imgur.com/YZHRlE7.jpg)
 
@@ -16,6 +17,14 @@ Example screenshot: the edit menue of [this post](http://cms.redesign.mobi/redes
 
 *CSS-savvy users* can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [style article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
 ![A styled article](http://i.imgur.com/nFeGpM6.jpg)
+
+*HTML-savvy users* can also include code, for instance, for tables with Bootstrap 4 designs
+[A Bootstrap 4 table](http://i.imgur.com/yXnNHJW.jpg)
+
+*Bootstrap fans* can use Bootstrap 4 styles for formatting, for instance "primary", "success", "info" or "muted" / "faded" for [colors](https://v4-alpha.getbootstrap.com/utilities/colors/) and backgrounds.
+![Bootstrap colors](http://i.imgur.com/vgTD4VJ.jpg)
+
+
 
 
 ## Display
