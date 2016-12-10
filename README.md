@@ -8,8 +8,13 @@ Created with Coldfusion, a simple CRUD (create, read, update, delete) with a MyS
 * Pages: used to filter articles
 The user interface is created with Bootstrap 4, hence sites can be edited from any device
 
+Example screenshot: the edit menue of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
 ![](http://i.imgur.com/YZHRlE7.jpg)
-http://redesign.mobi/?site=redesign-showcase&post=1808
+
+Non-techies can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, an [article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this:
+<img src="http://i.imgur.com/T2QM7T2.jpg" alt="a simple article" style="border: 3px solid #eee;">
+
+
 ## Display
 Sites created are single page sites (or single page applications, SPA), build with Bootstrap 4
 * The HTML <code>head</code> and <code>body</code> layout are created dynamically from the server: [dynamic site example](http://redesign.mobi/cards/?site=black-forest-hotel-talblick), content is loaded into the template via AJAX with jQuery and a Coldfusion CFC
