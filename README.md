@@ -22,8 +22,8 @@ Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/r
 ![A styled article](http://i.imgur.com/nFeGpM6.jpg)
 
 
-**Fonts** can be used via external styles, for instance Google Fonts and customization.
-[Styling headers with Google Fonts](http://i.imgur.com/FmuLueA.jpg)
+**Fonts** can be used via external styles, for instance [Google Fonts](https://fonts.google.com/) and customization.
+![Styling headers with Google Fonts](http://i.imgur.com/FmuLueA.jpg)
 
 
 **HTML-savvy users** can also include code, for instance, for tables with Bootstrap 4 designs
