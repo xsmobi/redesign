@@ -2,17 +2,16 @@
 A website builder for responsive web design based on Bootstrap 4, creating fast loading AJAX single page web sites. Format examples: [redesign.mobi](http://www.redesign.mobi). Anyone can [sign-up](http://www.redesign.mobi/sign-up/) and create a website. It's only 20 seconds from signing up to Hello World.
 
 ## Contents
-* How content management, content delivery and frontend design play together
-* Formatting and design options
-* Displaying and templates
-* Pages
-* General features
-* Layout and typography features
+* [How content management, content delivery and frontend design play together](#how-content-management-content-delivery-and-frontend-design-play-together)
+* [Formatting and design options](#formatting-and-design-options)
+* [Display and templates](#display-and-templates)
+* [Pages](#pages)
+* [Host everywhere](#host-everywhere)
 
 
 ## How content management, content delivery and frontend design play together
 
-### Content management
+### Content management [&tarr;](#redesign-cms)
 Created with **Coldfusion**, the CMS is a simple [CRUD] https://en.wikipedia.org/wiki/Create,_read,_update_and_delete with a **MySQL** database. Data types (i.a. SQL tables):
 * *Address Data and Settings:* one record per site
 * *Articles* make up the content of a single page site. Text only ("basic use"), rich text ("advanced"), plus HTML/CSS ("expert")
@@ -80,6 +79,7 @@ Articles can be assigned to pages (an article can belong to one page only). To d
 * Header and sub header
 * Page text: additional that is not part of articles
 * Page sort: the order in the navigation list
+
 ![](http://i.imgur.com/5yBtZBW.jpg)
 
 ## Host everywhere
