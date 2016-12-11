@@ -2,7 +2,7 @@
 A website builder for responsive web design based on Bootstrap 4, creating fast loading AJAX single page web sites. Format examples: [redesign.mobi](http://www.redesign.mobi). Anyone can [sign-up](http://www.redesign.mobi/sign-up/) and create a website. It's only 20 seconds from signing up to Hello World.
 
 ## Contents
-* [How content management, content delivery and frontend design play together](#how-content-management-content-delivery-and-frontend-design-play-together-back-to-top)
+* [How content management, content delivery and frontend design play together](#how-content-management-content-delivery-and-frontend-design-play-together)
 * [Formatting and design options](#formatting-and-design-options-back-to-top)
 * [Display and templates](#display-and-templates-back-to-top)
 * [Pages](#pages-back-to-top)
