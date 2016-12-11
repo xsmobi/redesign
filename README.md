@@ -56,7 +56,7 @@ Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated wi
 
 ## Display and templates
 Presently there is only one base template:
-<code>
+```
 <div id="banner"></div>
 <div class="container" id="top">             
   	<ul class="nav nav-pills lead pt-1" id="navitems"></ul>
@@ -67,7 +67,7 @@ Presently there is only one base template:
 	<div class="card card-block mt-2" id="postlist" title="Articles"></div>
 </div>
 <div id="address"></div>
-</code>
+```
 * Within the posts div, every post (article) has its id and can be styled
 * The banner and the address block both come with a container because they can have fixed width (class="container") or full width (class="container-fluid")
 * For the [Slick slider](http://kenwheeler.github.io/slick/) (by @kenwheeler) there is presently only one configuration. It will be more customizable shortly.
