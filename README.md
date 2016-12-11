@@ -24,7 +24,7 @@ For **basic use**, the CMS stores data only, where each data type consists of va
 ### Frontend design
 The HTML template is almost empty. The head contains user specific data (such as a metatitle or canonical link), CSS links and external JS. The body contains some empty divs waiting for the AJAX data. If **basic** users do not add any CSS, the template looks like plain vanilla Bootstrap which is sufficient for many cases. **Advanced users** create rich text with canned markup from Bootstrap and some easy proprietary markdown (for instance <code>[linkURL link anchor text]</code> similar to Wikipedia markdown). **Expert users** (some HTML and CSS) can add more flavour with styles.
 
-## Formatting and design options
+## Formatting and design options <sub>[back to top](#redesign-cms)</sub>
 
 Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/redesign-showcase.html?post=1808)
 ![](http://i.imgur.com/YZHRlE7.jpg)
@@ -53,7 +53,7 @@ Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/r
 Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated with the Font Awesome button and the respective [icon code](http://fontawesome.io/icons/). Additionally, really awesome combinations of stacked and animated icons are possible as shown in [this article](http://cms.redesign.mobi/redesign-showcase.html?post=1821).
 ![](http://i.imgur.com/PiI08nk.jpg)
 
-## Display and templates
+## Display and templates <sub>[back to top](#redesign-cms)</sub>
 Presently there is only one base template:
 ```
 <div id="banner"></div>
@@ -71,7 +71,7 @@ Presently there is only one base template:
 * The banner and the address block both come with a container because they can have fixed width (class="container") or full width (class="container-fluid")
 * For the [Slick slider](http://kenwheeler.github.io/slick/) (by @kenwheeler) there is presently only one configuration. It will be more customizable shortly.
 
-## Pages
+## Pages <sub>[back to top](#redesign-cms)</sub>
 Articles can be assigned to pages (an article can belong to one page only). To do this, pages have to be created first (in the same way articles are created). Example: menu page section of [this hotel site:](http://cms.redesign.mobi/black-forest-hotel-talblick.html)
 ![](http://i.imgur.com/V4EmPlF.jpg)
 * Label: its the internal URI (only lower case, no special characters, no blanks)
@@ -82,7 +82,7 @@ Articles can be assigned to pages (an article can belong to one page only). To d
 
 ![](http://i.imgur.com/5yBtZBW.jpg)
 
-## Host everywhere
+## Host everywhere <sub>[back to top](#redesign-cms)</sub>
 Since sites are single, statice HTML pages, the can be hosted everywhere. Or they can be published on multiple hosts where updated content is served via AJAX to all hosting sites. Example: a bed and breakfast in Munich, [Pension Amsel](http://pension-amsel.com/)
 * Hosted on [redesign.mobi](http://cms.redesign.mobi/pension-amsel-muenchen.html)
 * Hosted on [Amazon S3](http://aws-website-pensionamsel-7gdr4.s3-website-us-east-1.amazonaws.com/)
@@ -90,7 +90,3 @@ Since sites are single, statice HTML pages, the can be hosted everywhere. Or the
 The lean HTML template plus AJAX loading keeps load time very short
 ![](http://i.imgur.com/H3UYGBT.jpg)
 
-
-
-
-(this ReadMe is under construction, to be continued)
