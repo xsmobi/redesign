@@ -32,7 +32,7 @@ Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/r
 
 <hr>
 **Non-techies** can build plain vanilla pages quick and easy, just content design without bells and whistles. For instance, a [simple article](http://cms.redesign.mobi/redesign-showcase.html?post=1808) could look like this (just a header, text, image):
-![A simple article](http://i.imgur.com/2Dg73Id.jpg)
+![A simple article](http://i.imgur.com/kWp6Ujm.jpg)
 
 <hr>
 **CSS-savvy users** can enter styles or link to an external stylesheet to format any HTML element (the entire site, articles, header etc.). Such a [styled article](http://redesign.mobi/?site=redesign-showcase&post=1809) could look like this:
@@ -53,6 +53,34 @@ Example screenshot: the **edit menue** of [this post](http://cms.redesign.mobi/r
 <hr>
 Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated with the Font Awesome button and the respective [icon code](http://fontawesome.io/icons/). Additionally, really awesome combinations of stacked and animated icons are possible as shown in [this article](http://cms.redesign.mobi/redesign-showcase.html?post=1821).
 ![](http://i.imgur.com/PiI08nk.jpg)
+
+## Display and templates
+Presently there is only one base template:
+<code>
+<body>
+ <div id="banner"></div>                                                    <!-- Banner fixed width or full width -->
+ <div class="container" id="top">             
+  
+  <ul class="nav nav-pills lead pt-1" id="navitems"></ul>                   <!-- Pages navigation -->
+		<div class="container" id="site_header"></div>                            <!-- Header -->
+		<div id="slogan"></div>                                                   <!-- Sub header -->
+		<div id="posts"></div>                                                    <!-- Articles -->
+		<div class="row slick-multislider mt-1 mb-1" id="slick_slider"></div>     <!-- Slider -->
+		<div class="card card-block mt-2" id="postlist" title="Articles"></div>   <!-- Nav to article pages -->
+	
+ </div><!-- /container -->
+	<div id="address"></div>                                                   <!-- Address footer, map -->
+ 
+ <!-- 
+ 
+ jQuery for AJAX (getJSON from MySQL, pages and Slick slider
+ 
+ -->
+ </body>
+</code>
+* Within the posts div, every post (article) has its id and can be styled
+* The banner and the address block both come with a container because they can have fixed width (class="container") or full width (class="container-fluid")
+* For the [Slick slider](http://kenwheeler.github.io/slick/) (by @kenwheeler) there is presently only one configuration. It will be more customizable shortly.
 
 ## Host everywhere
 Since sites are single, statice HTML pages, the can be hosted everywhere. Or they can be published on multiple hosts where updated content is served via AJAX to all hosting sites. Example: a bed and breakfast in Munich, [Pension Amsel](http://pension-amsel.com/)
