@@ -57,26 +57,16 @@ Redesign CMS integrates **icons from Font Awesome** . Icons can be integrated wi
 ## Display and templates
 Presently there is only one base template:
 <code>
-<body>
- <div id="banner"></div>                                                    <!-- Banner fixed width or full width -->
- <div class="container" id="top">             
-  
-  <ul class="nav nav-pills lead pt-1" id="navitems"></ul>                   <!-- Pages navigation -->
-		<div class="container" id="site_header"></div>                            <!-- Header -->
-		<div id="slogan"></div>                                                   <!-- Sub header -->
-		<div id="posts"></div>                                                    <!-- Articles -->
-		<div class="row slick-multislider mt-1 mb-1" id="slick_slider"></div>     <!-- Slider -->
-		<div class="card card-block mt-2" id="postlist" title="Articles"></div>   <!-- Nav to article pages -->
-	
- </div><!-- /container -->
-	<div id="address"></div>                                                   <!-- Address footer, map -->
- 
- <!-- 
- 
- jQuery for AJAX (getJSON from MySQL, pages and Slick slider
- 
- -->
- </body>
+<div id="banner"></div>
+<div class="container" id="top">             
+  	<ul class="nav nav-pills lead pt-1" id="navitems"></ul>
+	<div class="container" id="site_header"></div>
+	<div id="slogan"></div>
+	<div id="posts"></div>
+	<div class="row slick-multislider mt-1 mb-1" id="slick_slider"></div>
+	<div class="card card-block mt-2" id="postlist" title="Articles"></div>
+</div>
+<div id="address"></div>
 </code>
 * Within the posts div, every post (article) has its id and can be styled
 * The banner and the address block both come with a container because they can have fixed width (class="container") or full width (class="container-fluid")
