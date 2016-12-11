@@ -72,6 +72,16 @@ Presently there is only one base template:
 * The banner and the address block both come with a container because they can have fixed width (class="container") or full width (class="container-fluid")
 * For the [Slick slider](http://kenwheeler.github.io/slick/) (by @kenwheeler) there is presently only one configuration. It will be more customizable shortly.
 
+## Pages
+Articles can be assigned to pages (an article can belong to one page only). To do this, pages have to be created first (in the same way articles are created).
+![](http://i.imgur.com/V4EmPlF.jpg)
+Label: its the internal URI (only lower case, no special characters, no blanks)
+Page name: will be displayed in the navigation list
+Header and sub header
+Page text: additional that is not part of articles
+Page sort: the order in the navigation list
+![](http://i.imgur.com/5yBtZBW.jpg)
+
 ## Host everywhere
 Since sites are single, statice HTML pages, the can be hosted everywhere. Or they can be published on multiple hosts where updated content is served via AJAX to all hosting sites. Example: a bed and breakfast in Munich, [Pension Amsel](http://pension-amsel.com/)
 * Hosted on [redesign.mobi](http://cms.redesign.mobi/pension-amsel-muenchen.html)
