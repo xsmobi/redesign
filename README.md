@@ -73,13 +73,13 @@ Presently there is only one base template:
 * For the [Slick slider](http://kenwheeler.github.io/slick/) (by @kenwheeler) there is presently only one configuration. It will be more customizable shortly.
 
 ## Pages
-Articles can be assigned to pages (an article can belong to one page only). To do this, pages have to be created first (in the same way articles are created).
+Articles can be assigned to pages (an article can belong to one page only). To do this, pages have to be created first (in the same way articles are created). Example: menu page section of [this hotel site:](http://cms.redesign.mobi/black-forest-hotel-talblick.html)
 ![](http://i.imgur.com/V4EmPlF.jpg)
-Label: its the internal URI (only lower case, no special characters, no blanks)
-Page name: will be displayed in the navigation list
-Header and sub header
-Page text: additional that is not part of articles
-Page sort: the order in the navigation list
+* Label: its the internal URI (only lower case, no special characters, no blanks)
+* Page name: will be displayed in the navigation list
+* Header and sub header
+* Page text: additional that is not part of articles
+* Page sort: the order in the navigation list
 ![](http://i.imgur.com/5yBtZBW.jpg)
 
 ## Host everywhere
