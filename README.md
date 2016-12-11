@@ -11,7 +11,7 @@ A website builder for responsive web design based on Bootstrap 4, creating fast 
 
 ## How content management, content delivery and frontend design play together
 
-### Content management <sup>[back to top](#redesign-cms)</sup>
+### Content management <sub>[back to top](#redesign-cms)</sub>
 Created with **Coldfusion**, the CMS is a simple [CRUD] https://en.wikipedia.org/wiki/Create,_read,_update_and_delete with a **MySQL** database. Data types (i.a. SQL tables):
 * *Address Data and Settings:* one record per site
 * *Articles* make up the content of a single page site. Text only ("basic use"), rich text ("advanced"), plus HTML/CSS ("expert")
