@@ -6,6 +6,7 @@ A website builder for responsive web design based on Bootstrap 4, creating fast 
 * [Formatting and design options](#formatting-and-design-options-back-to-top)
 * [Display and templates](#display-and-templates-back-to-top)
 * [Pages](#pages-back-to-top)
+* [Site search](#site-search-back-to-top)
 * [Host everywhere](#host-everywhere-back-to-top)
 
 
@@ -81,6 +82,11 @@ Articles can be assigned to pages (an article can belong to one page only). To d
 * Page sort: the order in the navigation list
 
 ![](http://i.imgur.com/5yBtZBW.jpg)
+
+## Site search <sub>[back to top](#redesign-cms)</sub>
+Instant, relevant site searches!vUsers are very demanding when it comes to searches. Many site builders use their own search functions, which often disappoint users. Instead of reinventing the wheel, Redesign CMS takes its cues from one of the best search specialists, [Algolia](https://www.algolia.com/) ("Milliseconds matter, instant and relevant results from the first keystroke"). This [site about vacation homes](http://www.deutschlandurlaub.mobi/hotel-pension-fewo/nordseewoge.html) uses Algolia search so customers can find houses or apartments instantly, while they type.
+
+![](http://i.imgur.com/jBH6bcY.jpg)
 
 ## Host everywhere <sub>[back to top](#redesign-cms)</sub>
 Since sites are single, statice HTML pages, the can be hosted everywhere. Or they can be published on multiple hosts where updated content is served via AJAX to all hosting sites. Example: a bed and breakfast in Munich, [Pension Amsel](http://pension-amsel.com/)
