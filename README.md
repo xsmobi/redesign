@@ -100,7 +100,7 @@ The lean HTML template plus AJAX loading keeps load time very short
 ## Examples <sub>[back to top](#redesign-cms)</sub>
 A showcase site will be available shortly. In the meantime
 * [A hotel and spa in the Black Forest](http://cms.redesign.mobi/black-forest-hotel-talblick.html)
-* [Vacation homes in South Germany](http://cms.redesign.mobi/ferienhaushotel-buehlerzell-gruene-oase.html)
+* [Vacation homes in South Germany](http://cms.redesign.mobi/ferienhaushotel-buehlerzell-gruene-oase.html) (new feature: Slick slider)
 * [Redesign CMS's showcase site (in the works)](http://cms.redesign.mobi/redesign-showcase.html) 
 
 
