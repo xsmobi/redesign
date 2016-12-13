@@ -8,6 +8,7 @@ A website builder for responsive web design based on Bootstrap 4, creating fast 
 * [Pages](#pages-back-to-top)
 * [Site search](#site-search-back-to-top)
 * [Host everywhere](#host-everywhere-back-to-top)
+* [Examples](#host-everywhere-back-to-top)
 
 
 ## How content management, content delivery and frontend design play together
@@ -84,7 +85,7 @@ Articles can be assigned to pages (an article can belong to one page only). To d
 ![](http://i.imgur.com/5yBtZBW.jpg)
 
 ## Site search <sub>[back to top](#redesign-cms)</sub>
-Instant, relevant site searches!vUsers are very demanding when it comes to searches. Many site builders use their own search functions, which often disappoint users. Instead of reinventing the wheel, Redesign CMS takes its cues from one of the best search specialists, [Algolia](https://www.algolia.com/) ("Milliseconds matter, instant and relevant results from the first keystroke"). This [site about vacation homes](http://www.deutschlandurlaub.mobi/hotel-pension-fewo/nordseewoge.html) uses Algolia search so customers can find houses or apartments instantly, while they type.
+Instant, relevant site searches! Users are very demanding when it comes to searches. Many site builders use their own search functions, which often disappoint users. Instead of reinventing the wheel, Redesign CMS takes its cues from one of the best search specialists, [Algolia](https://www.algolia.com/) ("Milliseconds matter, instant and relevant results from the first keystroke"). This [site about vacation homes](http://www.deutschlandurlaub.mobi/hotel-pension-fewo/nordseewoge.html) uses Algolia search so customers can find houses or apartments instantly, while they type.
 
 ![](http://i.imgur.com/jBH6bcY.jpg)
 
@@ -95,4 +96,14 @@ Since sites are single, statice HTML pages, the can be hosted everywhere. Or the
 * Hosted on [BitBalloon](http://pension-amsel-muenchen.bitballoon.com)
 The lean HTML template plus AJAX loading keeps load time very short
 ![](http://i.imgur.com/H3UYGBT.jpg)
+
+## Examples <sub>[back to top](#redesign-cms)</sub>
+A showcase site will be available shortly. In the meantime
+* [A hotel and spa in the Black Forest](http://cms.redesign.mobi/black-forest-hotel-talblick.html)
+* [Vacation homes in South Germany](http://cms.redesign.mobi/ferienhaushotel-buehlerzell-gruene-oase.html)
+* [Redesign CMS's showcase site (in the works)](http://cms.redesign.mobi/redesign-showcase.html) 
+
+
+
+
 
